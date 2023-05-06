@@ -13,17 +13,15 @@ const Footer = () => (
   <HeaderContext.Consumer>
     {value => {
       const {isDarkTheme} = value
-
       const footerDarkText = isDarkTheme ? 'footer-dark-text' : ''
-
       return (
         <div className="footer-container">
           <div className="icons-container">
-            <a href="mailto:gkirang4@gmail.com" className="footer-icon-button">
+            <a href="mailto:maheshtammineni2222@gmail.com" className="footer-icon-button">
               <FaGoogle className={`footer-icon ${footerDarkText}`} />
             </a>
             <a
-              href="https://www.linkedin.com/in/gottumukkalakiran/"
+              href="https://www.linkedin.com/in/mahesh-tammineni-468Ok"
               target="__blank"
               rel="noopener noreferrer"
               className="footer-icon-button"
@@ -31,7 +29,7 @@ const Footer = () => (
               <FaLinkedin className={`footer-icon ${footerDarkText}`} />
             </a>
             <a
-              href="https://github.com/gottumukkalakiran"
+              href="https://github.com/MaheshTammineni"
               target="__blank"
               rel="noopener noreferrer"
               className="footer-icon-button"
@@ -39,7 +37,7 @@ const Footer = () => (
               <FaGithub className={`footer-icon ${footerDarkText}`} />
             </a>
             <a
-              href="https://www.twitter.com"
+              href=""
               target="__blank"
               rel="noopener noreferrer"
               className="footer-icon-button"
@@ -47,7 +45,7 @@ const Footer = () => (
               <FaTwitter className={`footer-icon ${footerDarkText}`} />
             </a>
             <a
-              href="https://www.instagram.com/kiran_gottumukkala/"
+              href=""
               target="__blank"
               rel="noopener noreferrer"
               type="button"
@@ -56,7 +54,7 @@ const Footer = () => (
               <FaInstagram className={`footer-icon ${footerDarkText}`} />
             </a>
             <a
-              href="https://www.youtube.com/@kirangottumukkala/featured"
+              href=""
               target="__blank"
               rel="noopener noreferrer"
               type="button"
